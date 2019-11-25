@@ -4,5 +4,11 @@
   "main": "index.js",
   "author": "spursunity",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "devDependencies": {
+    "cucumber": "^6.0.5"
+  }
 }
